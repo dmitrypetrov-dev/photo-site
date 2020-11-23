@@ -9,6 +9,8 @@ $(document).ready(function () {
             adaptiveHeight: true,
             speed: 200,
             swipeToSlide: true,
+            slidesToScroll: 2,
+            touchThreshold: 10,
         });
 });
 
